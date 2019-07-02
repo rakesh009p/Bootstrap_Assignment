@@ -1,0 +1,38 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+# Useful .gitignore templates: https://github.com/github/gitignore
+
+404.html
+humans.txt
+style.css
+######################
+# SASS
+######################
+.sass-cache/
+######################
+# Visual Studio Code
+######################
+.vscode/
+######################
+/log/
+/target/
+######################
+# Directories
+######################
+/bin/
+/deploy/
+######################
+# Logs
+######################
+*.log
+######################
+# Ignore model files that are auto-generated
+ModelIndex.xml
+ExportedFiles.xml
+######################
+# Others
+######################
+*.class
+*.*~
+*~
+.merge_file*
